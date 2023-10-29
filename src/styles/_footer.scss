@@ -1,0 +1,16 @@
+.contacts {
+  display: flex;
+  gap: 26px;
+  flex-direction: column;
+  padding: 51px 0px 54px 0px;
+  &_list {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+  }
+  &_copyright {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+  }
+}

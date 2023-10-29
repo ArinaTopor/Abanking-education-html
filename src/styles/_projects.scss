@@ -1,0 +1,64 @@
+.projects {
+  max-width: 855px;
+  margin: 0 auto;
+  &_subtitle {
+    margin: 12px 0 22px 0;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+  }
+
+  &_container {
+    display: grid;
+    grid-gap: 18px;
+    grid-template-columns: 246px 1fr;
+    margin-bottom: 31px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  &_img {
+    width: 246px;
+    height: 180px;
+    border-radius: 6px;
+    transition: 1s;
+    &:hover {
+      box-shadow: 8px 5px 8px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  &_link {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243d;
+  }
+
+  &_container-aside {
+    display: flex;
+    gap: 26px;
+    margin: 22px 0;
+  }
+
+  &_year {
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    width: 62px;
+    background-color: #142850;
+    border-radius: 16px;
+  }
+
+  &_alt {
+    font-weight: 400;
+    font-size: 20px;
+    color: #8695a4;
+  }
+
+  &_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 561px;
+  }
+}
