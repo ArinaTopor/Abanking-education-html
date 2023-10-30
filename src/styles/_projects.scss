@@ -1,22 +1,25 @@
 .projects {
   max-width: 855px;
   margin: 0 auto;
-  &_subtitle {
+  &__container_content {
+    margin-bottom: 32px;
+  }
+  &__subtitle {
     margin: 12px 0 22px 0;
     font-weight: 400;
     font-size: 22px;
     line-height: 60px;
   }
 
-  &_container {
+  &__container {
     display: grid;
     grid-gap: 18px;
     grid-template-columns: 246px 1fr;
-    margin-bottom: 31px;
+    margin-bottom: 30px;
     border-bottom: 1px solid #e0e0e0;
   }
 
-  &_img {
+  &__img {
     width: 246px;
     height: 180px;
     border-radius: 6px;
@@ -26,20 +29,20 @@
     }
   }
 
-  &_link {
+  &__link {
     font-weight: 700;
     font-size: 30px;
     line-height: 44px;
     color: #21243d;
   }
 
-  &_container-aside {
+  &__container_aside {
     display: flex;
     gap: 26px;
-    margin: 22px 0;
+    margin: 8px 0 22px 0;
   }
 
-  &_year {
+  &__year {
     font-weight: 900;
     font-size: 18px;
     text-align: center;
@@ -49,16 +52,17 @@
     border-radius: 16px;
   }
 
-  &_alt {
+  &__alt {
     font-weight: 400;
     font-size: 20px;
     color: #8695a4;
   }
 
-  &_text {
+  &__text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 23px;
     max-width: 561px;
+    margin-top: 11px 0;
   }
 }

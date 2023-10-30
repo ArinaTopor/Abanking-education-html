@@ -1,11 +1,11 @@
 .nav {
-  &_list {
+  &__list {
     display: flex;
     justify-content: flex-end;
     gap: 33px;
   }
 
-  &_link {
+  &__link {
     color: #000000;
     font-size: 20px;
     line-height: 29px;

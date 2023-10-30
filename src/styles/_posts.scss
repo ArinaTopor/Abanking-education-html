@@ -3,7 +3,7 @@
   padding-bottom: 32px;
   background-color: #edf7fa;
   padding-top: 27px;
-  &_top-info {
+  &__top_info {
     display: flex;
     justify-content: space-between;
     max-width: 855px;
@@ -15,12 +15,12 @@
       }
     }
   }
-  &_container {
+  &__container {
     display: flex;
     gap: 12px;
     justify-content: center;
   }
-  &_info {
+  &__info {
     background-color: #ffffff;
     border-radius: 4px;
     width: 418px;

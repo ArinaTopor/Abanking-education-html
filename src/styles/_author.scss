@@ -3,7 +3,7 @@
   justify-content: space-between;
   max-width: 855px;
   margin: 0 auto;
-  &_about {
+  &__about {
     display: inline-flex;
     gap: 40px;
     flex-direction: column;
@@ -15,7 +15,7 @@
     font-weight: 700;
     line-height: 60px;
   }
-  &_desc {
+  &__desc {
     font-size: 16px;
     font-weight: 400;
   }
@@ -24,7 +24,7 @@
     font-size: 16px;
     line-height: 24px;
   }
-  &_btn {
+  &__btn {
     border: none;
     border-radius: 2px;
     background-color: #ff6464;
